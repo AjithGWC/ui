@@ -12,7 +12,7 @@ function App() {
         <div className='col-span-2'>
           <div className='flex mt-4'>
             <img className='logo w-12' src={logo} alt="Logo"></img>
-            <a className='title'>Truncheon</a>
+            <h1 className='title'>Truncheon</h1>
           </div>
           <div className="search-box">
             <Search className="search-icon" />
@@ -23,25 +23,25 @@ function App() {
             <ul>
               <li className='active'>
                 <img className='mr-2' src={dashboard} alt="dashboard"></img>
-                <a>Dashboard</a>
+                <h1>Dashboard</h1>
               </li>
               <li>
                 <img className='hand' src={hand} alt='hand'></img>
-                <a>Transaction</a>
+                <h1>Transaction</h1>
                 <h1 className='avatar'>12</h1>
               </li>
               <li>
                 <Briefcase className='hand briefcase' />
-                <a>Payments</a>
+                <h1>Payments</h1>
               </li>
               <li>
                 <CreditCard className='credit-card' />
-                <a>Transaction</a>
+                <h1>Transaction</h1>
                 <h1 className='avatar-single'>4</h1>
               </li>
               <li>
                 <BarChart className='credit-card' />
-                <a>Analytics</a>
+                <h1>Analytics</h1>
                 <h1 className='avatar-single'>6</h1>
               </li>
               <div className='hr'>
@@ -49,11 +49,11 @@ function App() {
               </div>
               <li className='mt-0'>
                 <Settings className='setting' />
-                <a>Analytics</a>
+                <h1>Analytics</h1>
               </li>
               <li>
                 <HelpCircle className='setting' />
-                <a>Help and Support</a>
+                <h1>Help and Support</h1>
               </li>
             </ul>
           </nav>
