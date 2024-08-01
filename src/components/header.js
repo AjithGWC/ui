@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, Command } from 'react-feather';
+import { Search } from 'react-feather';
 
 const header = () => {
     return (
