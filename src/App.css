@@ -51,7 +51,7 @@ header{
 .sidebar{
   margin-top: 20px;
   margin-left: 5px;
-  min-height:100vh;
+  min-height:72vh;
   padding-bottom: 20%;
 }
 
@@ -67,7 +67,7 @@ header{
 }
 
 .bg-gray{
-  background-color: #f9f9f9;
+  background-color: rgba(249,249,249,255);
 }
 
 .content{
@@ -211,7 +211,7 @@ li{
   margin: 35px 26px 33px 5px;
 }
 
-ul li a{
+ul li h1{
   color: #4a4a48;
 }
 
@@ -256,7 +256,7 @@ ul li a{
 select{
   background-color: #efefef;
   padding: 7px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 select .icon {
@@ -268,8 +268,39 @@ select .icon {
 }
 
 .money{
-  background-color: red;
+  background-color: #fa360f;
   padding: 3px 10px;
-  border-radius: 6px;
+  border-radius: 8px;
   color: #fff;
+  box-shadow: 4px 4px 4px 0 #651606;
+}
+
+.bg-activegray{
+  background-color: #f0f0f0;
+}
+
+.box{
+  border-radius: 4px;
+  padding: 0.75rem;
+  border: solid 1px;
+  border-color: #f1f1ee;
+}
+
+.amount{
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+
+.card-contet{
+  color: #4a4a48;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.card-flex{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5px;
+  margin-top: 3rem
 }
