@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from './header';
 import Cards from './cards';
-import Charts from './chart';
+import Charts from './chart1';
+import Table from './table';
 
 const index = () => {
     return (
@@ -9,6 +10,7 @@ const index = () => {
           <Header />
           <Cards />
           <Charts />
+          <Table />
         </div>
       );
 }
